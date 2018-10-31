@@ -29,196 +29,161 @@ public class FormIndex extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        headerbar = new javax.swing.JPanel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        headerBar = new javax.swing.JPanel();
-        jPanel3 = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
-        jPanel6 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1100, 700));
-        setPreferredSize(new java.awt.Dimension(1100, 800));
-        setSize(new java.awt.Dimension(1100, 700));
+        setMaximumSize(new java.awt.Dimension(1920, 1080));
+        setMinimumSize(new java.awt.Dimension(1920, 1080));
+        setPreferredSize(new java.awt.Dimension(1920, 1080));
+        setSize(new java.awt.Dimension(1920, 1080));
         getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setMinimumSize(new java.awt.Dimension(1100, 900));
-        jPanel1.setLayout(null);
-
-        jScrollPane1.setMaximumSize(new java.awt.Dimension(1920, 1080));
-        jScrollPane1.setMinimumSize(new java.awt.Dimension(32767, 32767));
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(1100, 700));
-
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel2.setPreferredSize(new java.awt.Dimension(1100, 800));
+        jPanel2.setMaximumSize(new java.awt.Dimension(1920, 1080));
+        jPanel2.setMinimumSize(new java.awt.Dimension(1920, 1080));
+        jPanel2.setPreferredSize(new java.awt.Dimension(1920, 1080));
         jPanel2.setLayout(null);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/icon.png"))); // NOI18N
-        jPanel2.add(jLabel3);
-        jLabel3.setBounds(30, 40, 70, 60);
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setLayout(null);
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 28)); // NOI18N
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("SPORTSHOP");
-        jLabel4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/icon.png"))); // NOI18N
+        jPanel3.add(jLabel6);
+        jLabel6.setBounds(0, 0, 70, 60);
+
+        jLabel8.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 28)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setText("SPORTSHOP");
+        jLabel8.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel4MouseClicked(evt);
+                jLabel8MouseClicked(evt);
             }
         });
-        jPanel2.add(jLabel4);
-        jLabel4.setBounds(90, 40, 216, 60);
+        jPanel3.add(jLabel8);
+        jLabel8.setBounds(64, 0, 216, 60);
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
+        jPanel2.add(jPanel3);
+        jPanel3.setBounds(160, 40, 280, 60);
         jPanel2.add(jTextField1);
-        jTextField1.setBounds(340, 50, 395, 40);
+        jTextField1.setBounds(470, 50, 400, 40);
 
-        jButton1.setText("SEARCH");
+        jButton1.setText("Search");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         jPanel2.add(jButton1);
-        jButton1.setBounds(760, 50, 96, 42);
+        jButton1.setBounds(920, 50, 100, 40);
 
-        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel2.add(jLabel2);
-        jLabel2.setBounds(0, 478, 181, 44);
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
+        jLabel9.setText("POPULAR PRODUCT");
+        jPanel2.add(jLabel9);
+        jLabel9.setBounds(600, 460, 364, 44);
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Cart/cart.png"))); // NOI18N
-        jLabel1.setText("CART");
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/cart.png"))); // NOI18N
         jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel1MouseClicked(evt);
             }
         });
         jPanel2.add(jLabel1);
-        jLabel1.setBounds(910, 40, 120, 50);
+        jLabel1.setBounds(1170, 60, 40, 30);
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel5.setText("POPULARPRODUCT");
-        jPanel2.add(jLabel5);
-        jLabel5.setBounds(411, 478, 239, 44);
+        headerbar.setBackground(new java.awt.Color(0, 0, 0));
+        headerbar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.add(headerbar);
+        headerbar.setBounds(160, 110, 1270, 50);
 
-        headerBar.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 153));
+        jPanel1.setLayout(null);
 
-        javax.swing.GroupLayout headerBarLayout = new javax.swing.GroupLayout(headerBar);
-        headerBar.setLayout(headerBarLayout);
-        headerBarLayout.setHorizontalGroup(
-            headerBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1100, Short.MAX_VALUE)
-        );
-        headerBarLayout.setVerticalGroup(
-            headerBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 41, Short.MAX_VALUE)
-        );
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/b1.png"))); // NOI18N
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(0, 0, 230, 270);
 
-        jPanel2.add(headerBar);
-        headerBar.setBounds(0, 187, 1100, 41);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/b3.jpg"))); // NOI18N
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(230, 0, 230, 270);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 201, Short.MAX_VALUE)
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 195, Short.MAX_VALUE)
-        );
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/b2.jpg"))); // NOI18N
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(460, 0, 230, 270);
 
-        jPanel2.add(jPanel3);
-        jPanel3.setBounds(129, 540, 201, 195);
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel7.setText("SALE!! 20%-50% ");
+        jPanel1.add(jLabel7);
+        jLabel7.setBounds(750, 50, 310, 60);
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 201, Short.MAX_VALUE)
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 195, Short.MAX_VALUE)
-        );
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel2.setText("Only this week!!!");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(870, 140, 310, 60);
 
-        jPanel2.add(jPanel4);
-        jPanel4.setBounds(434, 540, 201, 195);
+        jPanel2.add(jPanel1);
+        jPanel1.setBounds(160, 160, 1270, 260);
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 197, Short.MAX_VALUE)
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 195, Short.MAX_VALUE)
-        );
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/jordan32.jpg"))); // NOI18N
+        jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel14MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jLabel14);
+        jLabel14.setBounds(280, 550, 265, 222);
 
-        jPanel2.add(jPanel5);
-        jPanel5.setBounds(743, 540, 197, 195);
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/jordan1 high.jpg"))); // NOI18N
+        jPanel2.add(jLabel15);
+        jLabel15.setBounds(660, 560, 265, 222);
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1100, Short.MAX_VALUE)
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 240, Short.MAX_VALUE)
-        );
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Index/airmax270.png"))); // NOI18N
+        jPanel2.add(jLabel16);
+        jLabel16.setBounds(1060, 560, 265, 222);
 
-        jPanel2.add(jPanel6);
-        jPanel6.setBounds(0, 230, 1100, 240);
-
-        jScrollPane1.setViewportView(jPanel2);
-
-        jPanel1.add(jScrollPane1);
-        jScrollPane1.setBounds(0, 0, 1190, 830);
-
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 1170, 780);
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(0, 0, 1920, 1080);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        FormCart form = new FormCart();
-        form.show();
-        this.hide();
+    private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
 
-    }//GEN-LAST:event_jLabel1MouseClicked
+    }//GEN-LAST:event_jLabel8MouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
-
-    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
-        FormIndex form = new FormIndex();
-        form.show();
+    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+        FormCart form = new FormCart();
         this.hide();
-    }//GEN-LAST:event_jLabel4MouseClicked
+        form.show();
+    }//GEN-LAST:event_jLabel1MouseClicked
+
+    private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
+        
+    }//GEN-LAST:event_jLabel14MouseClicked
 
     /**
      * @param args the command line arguments
@@ -256,20 +221,23 @@ public class FormIndex extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel headerBar;
+    private javax.swing.JPanel headerbar;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
